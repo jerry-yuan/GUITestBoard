@@ -1,6 +1,7 @@
 #include "stm32f10x_conf.h"
 #include <usart.h>
 #include <oled.h>
+#include <RC522.h>
 #include <SGUI_Text.h>
 #include <SGUI_FontResource.h>
 
@@ -9,6 +10,7 @@ int main(void) {
 	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_4);
     USART_Config();
     OLED_Initialize();
+    RC522_Initialize();
     screen.stSize.iWidth=128;
     screen.stSize.iHeight=64;
     screen.fnClear=OLED_Clear;

@@ -127,6 +127,7 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="inc\oled.h" />
+		<Unit filename="inc\RC522.h" />
 		<Unit filename="inc\stm32f10x.h" />
 		<Unit filename="inc\stm32f10x_conf.h" />
 		<Unit filename="inc\system_stm32f10x.h" />
@@ -228,6 +229,9 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="src\oled.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\RC522.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="src\startup_stm32f10x_md.S">
