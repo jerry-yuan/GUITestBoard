@@ -126,11 +126,15 @@
 		<Unit filename="GUI\src\SGUI_VariableBox.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="inc\fatfs\diskio.h" />
+		<Unit filename="inc\fatfs\ff.h" />
+		<Unit filename="inc\fatfs\ffconf.h" />
 		<Unit filename="inc\oled.h" />
 		<Unit filename="inc\stm32f10x.h" />
 		<Unit filename="inc\stm32f10x_conf.h" />
 		<Unit filename="inc\system_stm32f10x.h" />
 		<Unit filename="inc\usart.h" />
+		<Unit filename="inc\w25x.h" />
 		<Unit filename="readme.txt" />
 		<Unit filename="SPL\inc\misc.h" />
 		<Unit filename="SPL\inc\stm32f10x_adc.h" />
@@ -224,6 +228,18 @@
 		<Unit filename="SPL\src\stm32f10x_wwdg.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="src\fatfs\diskio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\fatfs\ff.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\fatfs\ffsystem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\fatfs\ffunicode.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="src\main.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -237,6 +253,9 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="src\usart.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\w25x.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="stm32f102c8_flash.ld" />
